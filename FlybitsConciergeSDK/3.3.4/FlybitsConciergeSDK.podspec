@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "FlybitsConciergeSDK.framework"
   s.homepage = "https://devportal.flybits.com"
   s.summary = "Flybits SDK provides powerful contextualization, customization and integration capabilities for building context-aware apps."
-  s.source = { :http => "https://bintray.com/api/ui/download/flybits-inc/Xcode-11.4.1/FlybitsConciergeSDK-v3.3.4/FlybitsConciergeSDK.zip"}
+  s.source = { :http => "https://flybits.jfrog.io/artifactory/Xcode-11.4.1/Flybits/3.3.4/FlybitsConciergeSDK.tar.gz"}
   s.dependency 'FlybitsSDK', '3.3.4'
    s.dependency 'FlybitsContextSDK', '3.3.4'
    s.dependency 'FlybitsKernelSDK', '3.3.4'
