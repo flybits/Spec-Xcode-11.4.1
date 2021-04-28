@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "FlybitsPushSDK.framework"
   s.homepage = "https://devportal.flybits.com"
   s.summary = "Flybits SDK provides powerful contextualization, customization and integration capabilities for building context-aware apps."
-  s.source = { :http => "https://bintray.com/api/ui/download/flybits-inc/Xcode-11.4.1/FlybitsPushSDK-v3.3.3/FlybitsPushSDK.zip"}
+  s.source = { :http => "https://flybits.jfrog.io/artifactory/Xcode-11.4.1/Flybits/3.3.3/FlybitsPushSDK.tar.gz"}
   s.dependency 'FlybitsSDK', '3.3.3'
  end
